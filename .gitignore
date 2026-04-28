@@ -1,0 +1,14 @@
+# Mobile
+.dart_tool/
+.packages
+.pub-cache/
+build/
+*.apk
+
+# Python/Hardware
+__pycache__/
+*.py[cod]
+.env
+
+# OS
+.DS_Store
