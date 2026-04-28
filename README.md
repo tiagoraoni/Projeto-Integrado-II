@@ -28,6 +28,9 @@ Repositório destinado ao desenvolvimento da **Lixeira Inteligente com Abertura 
 ├── docs/              # Documentação técnica e assets
 └── README.md          # Guia do projeto
 =======
-# Projeto-Integrado-II
-Lixeira inteligente automatizada para acessibilidade e higiene, desenvolvida com Raspberry Pi (Python) e aplicativo mobile (Flutter/Kotlin).
 
+# Documentação do Projeto
+Para facilitar a navegação, os detalhes técnicos foram separados por categoria:
+
+- [Guia de Padronização de Commits](GIT_GUIDE.md) — *Consulte antes de subir código.*
+- [Guia de Testes e Qualidade](TEST_GUIDE.md) — *Requisitos da disciplina.*
