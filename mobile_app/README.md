@@ -1,4 +1,4 @@
-# mobile_app
+# smart_trash
 
 A new Flutter project.
 
