@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "author": "Nome do Grupo",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-v1", "id": "esp32", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrassonico",
+      "top": -123.3,
+      "left": 149.5,
+      "attrs": { "distance": "200" }
+    },
+    { "type": "wokwi-servo", "id": "servo", "top": 120, "left": 150, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp32:GND.1", "ultrassonico:GND", "black", [ "v0" ] ],
+    [ "esp32:3V3",   "ultrassonico:VCC", "red",   [ "v0" ] ],
+    [ "esp32:D5",    "ultrassonico:TRIG", "blue",  [ "v0" ] ],
+    [ "esp32:D18",   "ultrassonico:ECHO", "green", [ "v0" ] ],
+    [ "esp32:GND.2", "servo:GND", "black",  [ "v0" ] ],
+    [ "esp32:VIN",   "servo:VCC", "red",    [ "v0" ] ],
+    [ "esp32:D13",   "servo:PWM", "orange", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
