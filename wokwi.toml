@@ -1,0 +1,10 @@
+[wokwi]
+version = 1
+firmware = "build/smart-bin.ino.bin"
+elf      = "build/smart-bin.ino.elf"
+
+[serial]
+port = ""
+rfc2217ServerPort = 4000
+
+
